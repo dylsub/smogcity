@@ -1,0 +1,39 @@
+// public IEnumerator GravityWait()
+    // {
+    //     GameObject s1 = Instantiate<GameObject>(silhouette, gameObject.transform.position, Quaternion.identity);
+    //     if (!facingRight)
+    //     {
+    //         s1.GetComponent<Transform>().Rotate(0, 180, 0);
+    //     }
+    //     yield return new WaitForSecondsRealtime(0.05f);
+    //     GameObject s2 = Instantiate<GameObject>(silhouette, gameObject.transform.position, Quaternion.identity);
+    //     if (!facingRight)
+    //     {
+    //         s2.GetComponent<Transform>().Rotate(0, 180, 0);
+    //     }
+    //     yield return new WaitForSecondsRealtime(0.05f);
+    //     Destroy(s1);
+    //     GameObject s3 = Instantiate<GameObject>(silhouette, gameObject.transform.position, Quaternion.identity);
+    //     if (!facingRight)
+    //     {
+    //         s3.GetComponent<Transform>().Rotate(0, 180, 0);
+    //     }
+    //     yield return new WaitForSecondsRealtime(0.05f);
+    //     Destroy(s2);
+
+
+    //     RemoveForce(false);
+    //     rb.gravityScale = 0f;
+    //     yield return new WaitForSecondsRealtime(0.05f);
+    //     Destroy(s3);
+    //     yield return new WaitForSecondsRealtime(0.1f);
+
+    //     endDashPosX = transform.position.x;
+
+    //     Debug.Log(Mathf.Abs(endDashPosX - startDashPosX));
+    //     RemoveForce(true);
+    //     rb.gravityScale = 1f;
+    //     isDashing = false;
+
+
+    // }
